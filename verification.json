@@ -1,0 +1,35 @@
+[
+  {
+    "action": "open",
+    "target_deg": 35,
+    "measured_deg": {
+      "gripper_left_joint": 34.697,
+      "gripper_right_joint": 34.697
+    },
+    "ack": "ACCEPTED",
+    "passed": true,
+    "image": "open.png"
+  },
+  {
+    "action": "close",
+    "target_deg": -8,
+    "measured_deg": {
+      "gripper_left_joint": -7.927,
+      "gripper_right_joint": -7.927
+    },
+    "ack": "ACCEPTED",
+    "passed": true,
+    "image": "close.png"
+  },
+  {
+    "action": "open_repeat",
+    "target_deg": 35,
+    "measured_deg": {
+      "gripper_left_joint": 34.697,
+      "gripper_right_joint": 34.697
+    },
+    "ack": "ACCEPTED",
+    "passed": true,
+    "image": "open_repeat.png"
+  }
+]
